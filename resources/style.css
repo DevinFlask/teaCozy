@@ -1,15 +1,22 @@
 /* Universal Styles */
-
+body {
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+}
 /* Nav Bar */
 
 header {
  position: fixed;
  width: 100%;
- 
+ display: inline-block;
 }
 
 img {
-
+  height: 50px;
+  width: auto;
 }
 
 nav {
