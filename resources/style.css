@@ -30,9 +30,11 @@ nav {
   display: inline-flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 10px;
+  
 }
 
 #nav {
   text-decoration: underline;
-  
+
 }
