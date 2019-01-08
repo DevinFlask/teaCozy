@@ -14,13 +14,15 @@ header {
  width: 100%;
  height: 69px;
  border-bottom: 1px solid seashell;
- display: inline-block;
+ display: inline-flex;
+ flex-flow: row nowrap;
 }
 
 img {
   height: 50px;
   width: auto;
   margin-left: 10px;
+
 }
 
 nav {
