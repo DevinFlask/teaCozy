@@ -17,7 +17,6 @@ header {
  border-bottom: 1px solid seashell;
  display: inline-flex;
  flex-flow: row nowrap;
- justify-content: flex-end;
 }
 
 img {
@@ -29,8 +28,9 @@ img {
 
 nav {
   margin-right: 10px;
+  width: 100%;
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin-right: 10px;
 
