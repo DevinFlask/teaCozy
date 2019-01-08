@@ -28,9 +28,11 @@ img {
 nav {
   margin-right: 10px;
   display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 #nav {
   text-decoration: underline;
-  justify-content: flex-end;
+  
 }
