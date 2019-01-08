@@ -16,6 +16,7 @@ header {
  border-bottom: 1px solid seashell;
  display: inline-flex;
  flex-flow: row nowrap;
+ justify-content: flex-end;
 }
 
 img {
@@ -28,10 +29,10 @@ img {
 nav {
   margin-right: 10px;
   display: inline-flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   margin-right: 10px;
-  
+
 }
 
 #nav {
