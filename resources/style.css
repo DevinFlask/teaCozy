@@ -6,6 +6,7 @@ body {
   color: seashell;
   opacity: 0.9;
   font-family: Helvetica;
+  text-align: center;
 }
 /* Nav Bar */
 
@@ -37,5 +38,26 @@ nav {
 
 #nav {
   text-decoration: underline;
+
+}
+
+/* Body */
+.mission {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.missionImage {
+  height: auto;
+  width: auto;
+}
+
+.missionMainTitle {
+
+}
+
+.missionSubtitle {
 
 }
