@@ -47,7 +47,7 @@ nav {
   margin-top: 70px;
   height: 700px;
   width: 1200px;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
