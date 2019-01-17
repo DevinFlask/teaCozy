@@ -45,14 +45,18 @@ nav {
 }
 
 /* Body */
-
-.mission {
+.firstSection {
   margin-top: 70px;
-  height: 700px;
-  width: 1200px;
+  width: auto;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
 }
 
@@ -71,7 +75,7 @@ nav {
 }
 
 .items {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: auto;
