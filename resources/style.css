@@ -19,6 +19,7 @@ header {
  display: flex;
  align-items: center;
  z-index: 1;
+ background-color: black;
 }
 
 img {
@@ -38,8 +39,8 @@ nav {
 }
 
 #nav {
-  display: flex;
-  justify-content: space-around;
+  padding-left: 15px;
+  padding-right: 15px;
   text-decoration: underline;
 }
 
@@ -48,7 +49,6 @@ nav {
   padding-top: 70px;
   height: 700px;
   width: 1200px;
-  padding-left: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
