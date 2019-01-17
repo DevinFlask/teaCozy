@@ -45,6 +45,7 @@ nav {
 }
 
 /* Body */
+
 .mission {
   margin-top: 70px;
   height: 700px;
@@ -67,4 +68,44 @@ nav {
 
 .missionMainTitle, .missionSubtitle {
   font-weight: bold;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.month {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemPics {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.contentBox {
+  width: 300px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contentImage {
+  height: 200px;
+  width: 100%;
+}
+
+.contentInfo {
+  height: auto;
+  width: 100%;
 }
