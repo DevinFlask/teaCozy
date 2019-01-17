@@ -24,7 +24,7 @@ header {
 img {
   height: 50px;
   width: auto;
-  padding-left: 10px;
+  margin-left: 10px;
 
 }
 
@@ -45,7 +45,7 @@ nav {
 
 /* Body */
 .mission {
-  margin-top: 70px;
+  padding-top: 70px;
   height: 700px;
   width: 1200px;
   padding-left: 20px;
