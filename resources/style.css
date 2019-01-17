@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /* Universal Styles */
 body {
   background-color: black;
@@ -6,35 +6,33 @@ body {
   color: seashell;
   opacity: 0.9;
   font-family: Helvetica;
-  text-align: center;
 }
 /* Nav Bar */
 
 header {
  position: fixed;
- width: 100%;
+ width: auto;
  height: 69px;
  border-bottom: 1px solid seashell;
- display: inline-flex;
- flex-flow: row nowrap;
+ display: flex;
+ align-items: center;
  z-index: 1;
 }
 
 img {
   height: 50px;
   width: auto;
-  margin-left: 10px;
+  padding-left: 10px;
 
 }
 
 nav {
   margin-right: 10px;
   width: 100%;
-  display: inline-flex;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 10px;
-
+  padding-right: 10px;
 }
 
 #nav {
