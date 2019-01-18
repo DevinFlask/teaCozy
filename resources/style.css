@@ -44,6 +44,7 @@ nav {
 }
 
 /* Body */
+/* Mission Section */
 .firstSection {
   margin-top: 70px;
   width: auto;
@@ -72,6 +73,8 @@ nav {
 .missionMainTitle, .missionSubtitle {
   font-weight: bold;
 }
+
+/* Item Section */
 
 .items {
   display: flex;
@@ -112,4 +115,27 @@ nav {
   padding-top: 10px;
   height: auto;
   width: 100%;
+}
+/* Location Section */
+
+.location {
+
+}
+
+.locationBox {
+
+}
+
+/* Footer Section */
+
+footer {
+
+}
+
+.contact {
+
+}
+
+.copyright {
+  
 }
