@@ -73,10 +73,13 @@ nav {
 }
 
 /* Item Section */
-
-.items {
+.secondSection {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.items {
   width: 1200px;
   height: auto;
 }
@@ -86,7 +89,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
 }
 
 .itemPics {
@@ -116,23 +118,27 @@ nav {
 }
 /* Location Section */
 
+.thirdSection {
+    display: flex;
+    justify-content: center;
+}
+
 .location {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1200px;
   height: 500px;
-  display: flex;
-  justify-content: center;
 }
 
 .locationTitle {
   padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .locationBig {
   display: flex;
-  flex-flow: column nowrap;
   align-items: center;
   justify-content: space-around;
 }
