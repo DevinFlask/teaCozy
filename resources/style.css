@@ -46,7 +46,6 @@ nav {
 /* Body */
 /* Mission Section */
 .firstSection {
-  padding-top:: 70px;
   width: auto;
   height: auto;
   display: flex;
@@ -79,7 +78,6 @@ nav {
 .items {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: auto;
   height: auto;
 }
