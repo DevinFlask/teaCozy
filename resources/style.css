@@ -130,23 +130,36 @@ nav {
   padding-bottom: 15px;
 }
 
-.locationBox {
-  width: 300px;
-  height: 250px;
+.locationBig {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-around;
 }
 
+.locationBox {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
 /* Footer Section */
 
 footer {
-
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .contact {
-
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .copyright {
