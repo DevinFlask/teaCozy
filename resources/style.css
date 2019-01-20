@@ -69,7 +69,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 
 .missionMainTitle, .missionSubtitle {
@@ -94,7 +94,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 
 .itemPics {
@@ -161,7 +161,7 @@ nav {
   display: flex;
   align-items: stretch;
   justify-content: center;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 
 /* Footer Section */
@@ -178,7 +178,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: stretch;
 }
 
